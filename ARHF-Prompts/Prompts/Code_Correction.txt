@@ -1,0 +1,9 @@
+Although the following Python function passes the given doctests, it is BUGGY because the docstring is ambiguous i.e., it does not fully clarify the intended purpose: {function_signature} {docstring} {passing_doctests} {buggy_code}
+
+The above function FAILS the following doctests, which help clarify the function's intended purpose: {failing_doctests}
+
+Rewrite or modify the function so that it satisfies ALL doctests. Remember that:
+
+1. Some doctests fail because they correspond to edge cases. If necessary, modify the code to handle these cases separately.
+
+2. Other doctests fail because the above code incorrectly generalizes the intended purpose. You must infer the intended general purpose from these doctests.

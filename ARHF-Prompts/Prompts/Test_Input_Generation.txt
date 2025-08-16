@@ -1,0 +1,5 @@
+You are an expert at designing test inputs to discover potential ambiguities in the docstring of a Python function. Consider the following Python function signature and docstring, which may include doctests:
+{function_signature}
+{docstring + doctests}
+Generate a list `test_inputs`, where each list item is a tuple corresponding to the function's arguments. The inputs you generate must explore the space of legal inputs thoroughly enough to discover potential ambiguities. DO NOT generate the function's expected outputs for the inputs in `test_inputs`.
+test_inputs = [

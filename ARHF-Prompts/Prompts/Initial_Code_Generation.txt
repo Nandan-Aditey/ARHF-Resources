@@ -1,0 +1,4 @@
+Consider the following Python function signature, docstring, and doctests:
+{function_signature}
+{docstring + doctests}
+Write ONLY the code for the function body. Ensure that the resulting function passes ALL doctests.
